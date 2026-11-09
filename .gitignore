@@ -1,0 +1,41 @@
+
+# Kompilierte Dateien
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Build-Verzeichnisse
+build/
+debug/
+release/
+cmake-build-*/
+CMakeFiles/
+
+# CMake
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debugging
+*.dSYM/
+*.core
+
+# Ausführbare Datei deines Projekts
+/main
